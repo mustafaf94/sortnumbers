@@ -3,7 +3,7 @@
 
 main()
 {
-	char kelime[]="";
+	char word[]="";
 	int adet=0;
 	printf("bir kelime girin: ");
 	scanf("%s",&kelime);
