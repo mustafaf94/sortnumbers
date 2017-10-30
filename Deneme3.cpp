@@ -3,16 +3,16 @@
 
 main()
 {
-	char kelime[]="";
+	char word[]="";
 	int adet=0;
-	printf("bir kelime girin: ");
-	scanf("%s",&kelime);
+	printf("enter a word please: ");
+	scanf("%s",&word);
 	
-	printf("ekrana yazilma adeti: ");
+	printf("number of word: ");
 	scanf("%d",&adet);
 	
 	for (int i = 0; i < adet; i++)
-			printf("%s \n", kelime);
+			printf("%s \n", word);
 	
 	
 getch ();
