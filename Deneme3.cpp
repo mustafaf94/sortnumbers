@@ -13,6 +13,7 @@ main()
 	
 	for (int i = 0; i < adet; i++)
 			printf("%s \n", kelime);
+	print ("Ending...")
 	
 	
 getch ();
